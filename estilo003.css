@@ -10,18 +10,10 @@ background-color:black;
 	text-transform:uppercase;
 }
 
-#retangulo{
-		
-	width: 50vw;
-	height: 100vh;
-	border:5px solid black;
-	border-radius: 10px;
-	background-color: white;
-	
-}
+
 
 #video{
-	width:560px;
-	height:315px;
-	margin:20px;
+
+	width: 60%;
+	aspect-ratio: 16 / 9;
 }
