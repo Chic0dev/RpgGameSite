@@ -52,5 +52,11 @@ header {
 	right: 10px;
 	font-size:15px;
 	text-decoration:underline;
-
+}
+#imagem{
+	
+	width:100%;
+	height:auto;
+	max-width:50vw;
+}
 
