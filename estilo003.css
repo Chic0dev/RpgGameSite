@@ -1,0 +1,61 @@
+
+.retangulo {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+}
+
+@media only screen and (max-width: 768px) {
+	
+  /* Estilos para dispositivos com largura máxima de 768px (tablets, smartphones) */
+}
+
+@media only screen and (max-width: 480px) {
+	
+  /* Estilos para dispositivos com largura máxima de 480px (smartphones) */
+}
+
+
+#imagem{
+	margin-top: -30px;
+	margin-left:-15px;
+	margin-right:20px;
+	width:100vw;
+	height:100;
+}
+.tela-container{
+	
+	display:flex;
+	width:100%;
+	justify-content:space-around;
+}
+
+
+.container {
+  position: relative;
+  display: inline-block;
+   width: 100%;
+  padding-top: 56.25%;
+}
+
+.botao {
+	text-transform:uppercase;
+	position: absolute;
+	top: 730px;
+	left: 110px;
+	transform: translate(-85px, -32px);
+	padding: 26px 100px;
+	background-color: white;
+	color: red;
+	cursor: pointer;
+	border-radius: 20px
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+

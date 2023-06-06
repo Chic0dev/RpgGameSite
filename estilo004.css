@@ -1,0 +1,96 @@
+body{
+	background-color:black;
+}
+
+.faixa-preta{
+	
+	width: 100%;
+	height: 100px;
+	border:5px solid black;
+	border-radius: none;
+	background-color: black;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.porcentagem{
+	
+	color:#32CD32;
+	
+}
+.ano{
+	color:white;
+	font-size:25px;
+}
+
+.diretor{
+	color:white;
+	font-size:20px;
+	border:2px solid white;
+}
+.Episódios{
+	color:white;
+}
+.v{
+	color:white;
+}
+
+.imagem-de-fundo{
+	width: 100%;
+	height: 500px;
+	margin-top:20px;
+}
+.conteudo{
+	font-size:35px;
+	margin-top:40px;
+}
+.botao{
+border-radius:10px;
+font-size:30px;
+text-transform:uppercase;
+color:red;
+}
+.sinopse{
+	color:white;
+	font-size:20px;
+	position: relative;
+	top: 20px;
+	left: 0px;
+	word-spacing:pre-line;
+}
+.elenco{
+	position:relative;
+	left:60vw;
+	color:white;
+	font-size:25px;
+}
+.elenco2{
+	text-transform:uppercase;
+	color:red;
+}
+.genero{
+	position:relative;
+	left:60vw;
+	color:white;
+	font-size:25px;
+}
+.show{
+	position:relative;
+	left:60vw;
+	color:white;
+	font-size:25px;
+}
