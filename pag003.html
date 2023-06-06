@@ -3,13 +3,40 @@
 <head>
 	<meta charset="utf-8"> </meta>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<title>roteiro</title>
+	<title>filme</title>
 	<link rel="stylesheet" type="text/css" href="estilo003.css">
 
 </head>
 <body>
-
-	<h1 id="titulo">Filmes</h1>
 	
-	<center> <iframe id="video"  src="https://www.youtube.com/embed/yGjRXR1I_Vw" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
-	</body>
+	
+
+		<img id="imagem" src ="tela.jpeg"  />
+
+			<div class="container">
+ 
+  
+        
+</div>
+	<a href="filme.mp4" rel="next" target="_self"><button class="botao"><b>assistir</b></button></a>
+
+<script>
+  document.getElementById('botao').addEventListener('click', function() {
+    var elemento = document.documentElement;
+    if (elemento.requestFullscreen) {
+      elemento.requestFullscreen();
+    } else if (elemento.mozRequestFullScreen) { // Firefox
+      elemento.mozRequestFullScreen();
+    } else if (elemento.webkitRequestFullscreen) { // Chrome, Safari e Opera
+      elemento.webkitRequestFullscreen();
+    } else if (elemento.msRequestFullscreen) { // Internet Explorer e Edge
+      elemento.msRequestFullscreen();
+    }
+  });
+</script>
+
+	
+	
+
+</body>
+

@@ -1,5 +1,5 @@
 body{
-	background-color:#F5FFFA;
+	background-color:#8B0000;
 }
 
 #titulo{
@@ -30,7 +30,7 @@ body{
   }
 
 header {
-  background-color: #7B68EE;
+  background-color: black;
   padding:1px;
    
 }
@@ -54,6 +54,7 @@ header {
 	right: 10px;
 	font-size:15px;
 	text-decoration:underline;
+	color:white;
 }
 #imagem{
 	
@@ -61,4 +62,11 @@ header {
 	height:auto;
 	max-width:50vw;
 }
+#franflix{
+	position: absolute;
+	top: 10px; 
+	width:250px;
+	height:80px;
+}
+
 
