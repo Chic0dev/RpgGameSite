@@ -34,17 +34,17 @@ header {
   padding:1px;
    
 }
-
 #logo{
-	
 	height: 50px;
-	width: 50px;
 	box-shadow: 0px 4px 8px black;
 	position: absolute;
 	top: 535px; 	
 	right: 20px;
+	width: 100%;
 	
-	
+}
+.aspect-ratio{
+	aspect-ratio:16/9;
 }
 
 #criador{
