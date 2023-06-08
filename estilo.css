@@ -42,18 +42,22 @@ header {
 	top: 535px; 	
 	right: 20px;
 	width: 50px;
+	bottom: 0;
+	right: 0;
+	position:fixed;
 	
 }
 
 
 #criador{
 	
-	position: absolute;
+	position: fixed;
 	top: 570px; 	
-	right: 10px;
 	font-size:15px;
 	text-decoration:underline;
 	color:white;
+	bottom: 0;
+	right: 0;
 }
 #imagem{
 	
