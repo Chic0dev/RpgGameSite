@@ -1,9 +1,6 @@
 body{
 	background-color:#8B0000;
 }
-.aspect-ratio{
-	aspect-ratio: 16/9;
-}
 
 #titulo{
 		text-align: center;
@@ -12,7 +9,8 @@ body{
 		border-radius: 20px;
 		color: 	#FFFF00;
 		font-size: 50px;
-	
+		top:20px;
+		
 		
 }
 #botao2{
@@ -34,7 +32,7 @@ body{
 
 header {
   background-color: black;
-  padding:1px;
+  padding:40px;
    
 }
 #logo{
@@ -68,7 +66,12 @@ header {
 	top: 10px; 
 	width:250px;
 	height:80px;
-	aspect-ratio: 16/9;
+	margin-left:-30px;
+	
+	
 }
+
+
+
 
 
