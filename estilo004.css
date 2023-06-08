@@ -11,6 +11,30 @@ body{
 	background-color: black;
 }
 
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 9 dividido por 16, multiplicado por 100 para obter a porcentagem */
+}
+
+.aspect-ratio img {
+  position: absolute;
+  top: none;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Para garantir que a imagem cubra todo o espaço */
+}
+.informacoes {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.flexible-text {
+  font-size: 2em; /* Tamanho inicial do texto */
+}
+
 
 nav ul {
   list-style-type: none;

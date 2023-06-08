@@ -1,6 +1,9 @@
 body{
 	background-color:#8B0000;
 }
+.aspect-ratio{
+	aspect-ratio: 16/9;
+}
 
 #titulo{
 		text-align: center;
