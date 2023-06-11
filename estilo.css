@@ -9,11 +9,10 @@ body{
 		text-align: center;
 		text-transform:uppercase ;
 		border: 15px solid #000000;
-		border-radius: 20px;
 		color: 	#FFFF00;
 		font-size: 50px;
 		top:20px;
-		
+		box-shadow: 0px 4px 8px yellow;
 		
 }
 #botao2{
@@ -22,6 +21,7 @@ body{
 	height: 50px;
 	box-shadow: 0px 4px 8px red;
 	cursor: pointer;
+	
 	}
 
 
