@@ -21,7 +21,7 @@ body{
 #retangulo{
 	
 	width: 50vw;
-	height: 20vh;
+	height: 30vh;
 	border:5px solid black;
 	border-radius: 20px;
 	background-color: white;
@@ -33,8 +33,9 @@ body{
 		height: 50px;
 		margin-top:40px;
 		border: 2px solid black;
-		border-radius: 10px;
 		cursor: pointer;
+		border-radius: 20px;
+		box-shadow: 0px 3px 3px ;
 }
 #texto{
 	
@@ -47,5 +48,16 @@ body{
 	text-transform:uppercase;
 	font-size:15px;
 	cursor: pointer;
+}
+.elenco{
+		
+		border-radius: 20px;
+		box-shadow: 0px 3px 3px ;
+		width: 200px; /* Defina a largura desejada */
+		height: 50px; /* Defina a altura desejada */
+		cursor: pointer;
+		text-transform:uppercase;
+		
+	
 }
 
