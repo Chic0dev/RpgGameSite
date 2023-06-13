@@ -1,0 +1,11 @@
+body{
+	background-color:#4169E1;
+}
+.retangulos{
+	
+	width: 50vw;
+	height: 30vh;
+	border:5px solid black;
+	border-radius: 20px;
+	background-color: white;
+}
